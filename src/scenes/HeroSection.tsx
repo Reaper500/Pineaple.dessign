@@ -1,16 +1,15 @@
 
-import reel from "./Pineapple Reel Video_3.mp4"
+
 
 import AnimatedHeading from "./AnimatedHeading"
 import AnimatedParagraph from "./AnimatedParagraph"
-// import { div } from "framer-motion/client"
 import Orange  from "./navbar/Orange"
 
-type Props = {}
 
 
 
-const HeroSection = (props: Props) => {
+
+const HeroSection = () => {
   return (
     <>
       <div className="pt-[2rem] text-white bg-black">

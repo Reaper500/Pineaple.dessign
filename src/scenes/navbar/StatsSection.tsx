@@ -40,7 +40,7 @@ const StatBlock = ({ finalValue, label, unit } : StatBlockProps) => {
                 
 const StatsSection = () => {
   return (
-    <div className="flex  justify-center h-[5rem] leading-none items-center   ">
+    <div className="flex  justify-center h-[5rem]  items-center   ">
       <div className="h-[5rem] w-[18rem] flex justify-center items-center leading-none"><StatBlock finalValue={40} label="Projects" unit="+"/></div>
       <div className="h-[5rem] w-[18rem] flex justify-center items-center leading-none"><StatBlock finalValue={90} label="Return Rate"  unit="%"/></div>
       <div className="h-[5rem] w-[18rem] flex justify-center items-center leading-none"><StatBlock finalValue={20} label="Lives changed"  unit="million"/></div>
